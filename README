@@ -1,0 +1,22 @@
+UllImp
+======
+
+Improved Ullmann's algorithm for the subgraph isomorphism problem. For the description of the algorithm see paper by Jurij Mihelič and Uroš Čibej titled "Improvements of Ullmann's Algorithm for the Subgraph Isomorphism Problem".
+
+The source code is available under BSD license. See license.txt for details.
+
+
+Compile
+-------
+
+Run make.
+
+Or alternatively run g++ -O3 -o ullimp ullimp.cpp.
+
+
+Usage
+-----
+
+./ullimp <pattern> <target>
+
+Both graphs (pattern and target) must be in the Amalfi file format. See paper M. De Santo, P. Foggia, C. Sansone, and M. Vento, "A large database of graphs and its use for benchmarking graph isomorphism algorithms", Pattern Recognition Letters, vol. 24, pp. 1067– 1079, May 2003.
